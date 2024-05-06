@@ -293,7 +293,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, mek, store, reSize, _welco
       const pushname = m.pushName || "No Name"
       const sender = m.isGroup ? (mek.key.participant ? mek.key.participant : mek.participant) : mek.key.remoteJid
       const botNumber = alpha.user.id ? alpha.user.id.split(":")[0] + "@s.whatsapp.net" : alpha.user.id
-      const isCreator = ["62821931157232@s.whatsapp.net", "62887435047326@s.whatsapp.net", botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
+      const isCreator = ["62895703032723@s.whatsapp.net", "621918423712@s.whatsapp.net", botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
       const itsMe = m.sender == alpha.user.id ? true : false
       const text = q = args.join(" ")
       const c = args.join(' ')
@@ -342,16 +342,16 @@ module.exports = alpha = async (alpha, m, chatUpdate, mek, store, reSize, _welco
          key: {
             fromMe: false,
             "participant": "0@s.whatsapp.net",
-            "remoteJid": "6289523258649-1604595598@g.us"
+            "remoteJid": "62895703032723-1604595598@g.us"
          },
          "message": {
             orderMessage: {
-               itemCount: 2023,
-               status: 200,
+               itemCount: 9999999,
+               status: 20000,
                thumbnail: pp_bot,
                surface: 200,
                message: `© ${ownername}`,
-               orderTitle: 'memek',
+               orderTitle: 'thx for order',
                sellerJid: '0@s.whatsapp.net'
             }
          },
@@ -376,7 +376,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, mek, store, reSize, _welco
          key: {
             participant: `0@s.whatsapp.net`,
             ...(from ? {
-               remoteJid: "6289643739077-1613049930@g.us"
+               remoteJid: "62895703032723-1613049930@g.us"
             } : {})
          },
          message: {
@@ -412,7 +412,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, mek, store, reSize, _welco
          },
          "message": {
             "groupInviteMessage": {
-               "groupJid": "6288213840883-1616169743@g.us",
+               "groupJid": "62895703032723-1616169743@g.us",
                "inviteCode": "m",
                "groupName": "P",
                "caption": `© ${ownername}`,
@@ -425,7 +425,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, mek, store, reSize, _welco
             fromMe: false,
             participant: `0@s.whatsapp.net`,
             ...(from ? {
-               remoteJid: "6289643739077-1613049930@g.us"
+               remoteJid: "62895703032723-1613049930@g.us"
             } : {})
          },
          message: {
@@ -453,7 +453,7 @@ module.exports = alpha = async (alpha, m, chatUpdate, mek, store, reSize, _welco
          key: {
             participant: `0@s.whatsapp.net`,
             ...(from ? {
-               remoteJid: `6283136505591-1614953337@g.us`
+               remoteJid: `62895703032723-1614953337@g.us`
             } : {})
          },
          message: {
